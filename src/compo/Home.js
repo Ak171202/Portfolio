@@ -5,7 +5,7 @@ function Home() {
         <div style={{ margin: '5% 10%',marginTop:'10%' }} id='home'>
             <div class="row d-flex flex-row-reverse pt-3 pb-3" >
                 <div class="col-sm-12 text-center col-md-6 mt-lg-5 col-lg-6">
-                    <img style={{ border: '18px solid rgb(238 226 227)', borderRadius: '50%', backgroundColor: '#dae6f5' }} width='70%' src={mypic}></img>
+                    <img className='ms-lg-5' style={{ border: '18px solid rgb(238 226 227)', borderRadius: '50%', backgroundColor: '#dae6f5' }} width='70%' src={mypic}></img>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-6">
