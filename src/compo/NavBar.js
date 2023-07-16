@@ -7,10 +7,10 @@ function NavBar(props) {
         <nav className="navbar navbar-expand-lg fixed-top mt-0 " style={{ backgroundColor: '#fdfef9' }} aria-label="Eighth navbar example">
             <div className="container p-3" >
                 <h1 className="navbar-brand ms-lg-5" ><samp style={{ color: '#fe3a3d' }}>Manicka vasagar</samp> </h1>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
                     aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
-                </button>
+                </button> */}
 
                 <div className="collapse navbar-collapse" id="navbarsExample07">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
