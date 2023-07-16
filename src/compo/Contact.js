@@ -4,7 +4,7 @@ import edu from '../edu.jpg';
 function Contact() {
     return (
 
-        <footer class="text-center text-lg-start text-muted" id='contact'>
+        <footer class="text-center text-lg-start text-muted " id='contact'>
 
             <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
