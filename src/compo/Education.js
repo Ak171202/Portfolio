@@ -5,7 +5,13 @@ function Education() {
     return (
         <div style={{ margin: '5% 10%' }} id='education'>
             <h1 className='text-muted'>EDUCATION</h1>
-            <div class="row  pt-3 pb-3">
+            <div class="row d-flex flex-row-reverse pt-3 pb-3">
+                
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src={edu} width='100%'></img>
+                </div>
+
                 <div class="col-sm-12 text-center col-md-6 col-lg-6">
                     <div class="resume-box">
                         <ul>
@@ -34,10 +40,6 @@ function Education() {
 
                         </ul>
                     </div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <img src={edu} width='100%'></img>
                 </div>
             </div>
         </div>
