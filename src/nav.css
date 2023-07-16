@@ -1,0 +1,24 @@
+.navitem{
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: space-between;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    transition: .3s;
+    color: #0d0c0c;
+    cursor: pointer;
+}
+
+.ls{
+    padding: 10px 0 10px 30px;
+}
+
+a{
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+a:hover {
+    border-bottom: 3px solid Blue;
+    color: #302dee;
+  }
