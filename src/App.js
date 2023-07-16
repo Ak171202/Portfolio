@@ -16,7 +16,7 @@ function App() {
     }
 }
   return (
-    < >
+    <div >
       <NavBar srcollById={srcollById}></NavBar>
 
       <div className="container" style={{marginTop:'100px'}}>
@@ -27,7 +27,7 @@ function App() {
         <Contact></Contact>
       </div>
       
-    </>
+    </div>
   );
 }
 
