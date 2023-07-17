@@ -16,7 +16,7 @@ function Experience() {
                                 <div class="icon">
                                     <i class="fas fa-briefcase"></i>
                                 </div>
-                                <span class="time">2023 - 7 Months</span>
+                                <span class="time">2022 - 7 Months</span>
                                 <h5>PHP Developer</h5>
                                 <p>virtual technologies, <br></br>Dindigul
                                 </p>
