@@ -1,18 +1,32 @@
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Mainapp from "./Mainapp";
-import Test from "./Test";
-
+import React from 'react'
+import Contact from "./compo/Contact";
+import Education from "./compo/Education";
+import Experience from "./compo/Experience";
+import Home from "./compo/Home";
+import NavBar from "./compo/NavBar";
+import Skill from "./compo/Skill";
 function App() {
- 
+  const srcollById = (id)=>{
+    console.log(document.getElementById(id))
+        for(var i=0;i<2;i++){
+      document.getElementById(id).scrollIntoView({ block: 'center', behavior: 'smooth' });
+            document.getElementById(id).style.scrollMarginTop = '200px'
+    }
+}
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Mainapp />}>
-      </Route>
-      <Route path="googledfc99ed74a131a9a.html" element={<Test></Test>} />
-    </Routes>
-  </BrowserRouter>
+    <div >
+    <NavBar srcollById={srcollById}></NavBar>
+
+    <div className="container" style={{marginTop:'100px'}}>
+      <Home></Home>
+      <Skill></Skill>
+      <Education></Education>
+      <Experience></Experience>
+      <Contact></Contact>
+    </div>
+    
+  </div>
   );
 }
 
