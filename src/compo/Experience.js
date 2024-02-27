@@ -26,7 +26,7 @@ function Experience() {
                                     <i class="fas fa-briefcase"></i>
                                 </div>
                                 <span class="time">2023 - Present</span>
-                                <h5>Graduate Trainee</h5>
+                                <h5>SOFTWARE ENGINEER</h5>
                                 <p>React & Node Developer At</p>
                                 <p>Data Aces , Chennai</p>
                             </li>

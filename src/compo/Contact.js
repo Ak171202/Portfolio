@@ -15,7 +15,7 @@ function Contact() {
                     <a href="https://www.instagram.com/manickavasagar_n/" target='_blank' class="me-4 link-secondary">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href=""   target='_blank' class="me-4 link-secondary">
+                    <a href="https://www.linkedin.com/in/manicka-vasagar/"   target='_blank' class="me-4 link-secondary">
                         <i class="fab fa-linkedin"></i>
                     </a>
                     <a href="https://github.com/manickavasagarn"  target='_blank' class="me-4 link-secondary">
